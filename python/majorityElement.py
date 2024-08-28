@@ -1,3 +1,5 @@
+#august 28 2024
+
 class Solution:
     def majorityElement(self, nums: list[int]) -> int:
         # O(n) time | O(1) space
