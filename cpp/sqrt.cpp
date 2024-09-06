@@ -1,5 +1,5 @@
 //august 29 2024
-// beats 100.00% of cpp submissions
+// beats 100.00% of cpp submissions!!! (50% of the other solutions also do this tho lol)
 class Solution {
 public:
     int mySqrt(int x) {
