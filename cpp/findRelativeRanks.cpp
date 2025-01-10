@@ -3,13 +3,11 @@ public:
     vector<string> findRelativeRanks(vector<int>& score) {
         int N = score.size();
 
-        // Create a max heap of pairs (score, index)
         priority_queue<pair<int, int>> heap;
         for (int i = 0; i < N; i++) {
             heap.push({score[i], i});
         }
 
-        // Assign ranks to athletes
         vector<string> rank(N);
         int place = 1;
         while (!heap.empty()) {
