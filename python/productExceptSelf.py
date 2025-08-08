@@ -11,5 +11,7 @@ class Solution:
             postfix *= nums[i]
         return res
 
+#one of the cooler solutions. combining prefix and postfix products
+    
 
         
