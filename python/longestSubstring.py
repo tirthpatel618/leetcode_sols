@@ -1,5 +1,3 @@
-#my proudest one yet 
-
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         chars = set()
