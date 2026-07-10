@@ -10,8 +10,5 @@ add a column "wkfwd price" (how?? has to match the ticker and date)
     df["price_after] = df.groupby("ticker")["price].shift(-7)
 
 compute return (wkfwd - price) / price
-
-
-
-
 '''
+
