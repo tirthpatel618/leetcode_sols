@@ -8,6 +8,7 @@ ENV/
 env.bak/
 venv.bak/
 interviews/
+interview-prep/jane-street/
 .idea/
 node_modules/
 **/node_modules/
